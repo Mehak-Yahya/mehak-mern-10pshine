@@ -1,0 +1,26 @@
+name: Build
+
+on:
+  push:
+    branches:
+      - develop
+  pull_request:
+    branches:
+      - develop
+    types: [opened, synchronize, reopened]
+
+jobs:
+  sonarqube:
+    name: SonarCloud Analysis
+    runs-on: windows-latest  # ✅ Windows runner
+
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0  # Required for full analysis history
+
+      - name: SonarCloud Scan
+        uses: SonarSource/sonarqube-scan-action@v6
+        env:
+          SONAR_TOKEN: "${{ secrets.SONAR_TOKEN }}"
+          SONAR_HOST_URL: "${{ secrets.SONAR_HOST_URL }}"
