@@ -1,6 +1,4 @@
-# mehak-mern-10pshine
 # Notes App
-
 ## Project Overview
 A full-stack notes application with user authentication, per-user notes, rich text editing, logging, testing, and a secret dashboard unlocked by a passphrase. Backend uses Node.js and MySQL. Frontend is React.
 
@@ -55,5 +53,8 @@ GET  /api/notes/secret
 <img width="1263" height="687" alt="sec" src="https://github.com/user-attachments/assets/9aaf4e35-57ac-418e-a124-e4087b401c38" />
 <img width="1317" height="688" alt="sed" src="https://github.com/user-attachments/assets/a665b868-5c4b-45c0-8d7b-b158b2741b69" />
 
+## Contact
+📩 Email: kandhirmehak@gmail.com
+💼 Open for freelance & collaboration opportunities
 
 
