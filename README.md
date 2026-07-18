@@ -5,7 +5,7 @@ A full-stack notes application with user authentication, per-user notes, rich te
 ## Tech Stack
 - Node.js (Express)
 - React.js
-- MySQL / PostgreSQL / MongoDB
+- MongoDB
 - Pino Logger
 - Mocha + Chai (backend)
 - Jest (frontend)
